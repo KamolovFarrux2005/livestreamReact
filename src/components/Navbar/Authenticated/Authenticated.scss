@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(280deg, #000000 8%, rgba(0, 0, 0, 0) 260%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    &__logo{
+        text-decoration: none;
+        color: white;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 32px;
+        &:hover{
+            color: #E6E6E6;
+        }
+    }
+    &__search{
+        &__button{
+            background: #FED530;
+            border-radius: 0 8px 8px 0;
+            border: 1px solid #FED530;
+            color: #ffffff;
+            width: 40px;
+            height: 40px;
+            margin-right: 40px;
+        }
+        &__input{
+            visibility: hidden;
+            opacity: 0;
+            &--active{
+                margin-left: 340px;
+                width: 260px;
+                height: 40px;
+                border-radius: 8px 0 0 8px;
+                border: 1px solid #525252;
+                background: #525252;
+                outline: none;
+                color: white;
+                padding: 0 10px;
+            }
+        }
+        &__avatar{
+            width: 40px;
+            height: 40px;
+            background-color: #1E1E1E;
+            color: white;
+            border: 1px solid #1E1E1E;
+            border-radius: 50%;
+        }
+        &__login{
+            color: white;
+            font-family: 'DM Sans';
+            font-weight: 700;
+            font-size: 16px;
+            background-color: inherit;
+            border: 0;
+            cursor: pointer;
+        }
+    
+    }
+    .nav{
+        display: flex;
+        list-style: none;
+        margin-right: auto;
+        margin-left: 50px;
+        &__item{
+            display: flex;
+            &__link{
+                padding: 10px 10px;
+                text-decoration: none;
+                color: #E6E6E6;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                &--active{
+                    border-bottom: 4px solid #FED530;
+                    border-width: 4px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

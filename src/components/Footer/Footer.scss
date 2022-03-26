@@ -1,0 +1,108 @@
+.footer{
+    display: flex;
+    height: 560px;
+    background: #2E2E2E;
+    margin-top: 100px;
+    width: 100%;
+    &__section{
+        width: 560px;
+        background: #3D3D3D;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 40px 50px;
+    }
+    &__title{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 88px;
+    
+    }
+    &__text{
+        width: 320px;
+        height: 96px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #E6E6E6;
+        margin-top: 32px;
+    }
+    &__username{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 40px;
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+    }
+    &__input{
+        width: 282px;
+        height: 64px;
+        background: #525252;
+        border-radius: 8px;
+        border: 0;
+        outline: none;
+        padding: 0 10px;
+        color: white;
+    }
+    &__button{
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        border: 0;
+        background-color: #FED530;
+        margin-left: -55px;
+    }
+    &__part{
+        width: 100%;
+    }
+    &__row{
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        color: white;
+    }
+    &__list{
+        padding: 0 100px;
+        &__item{
+            padding-bottom: 30px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #E6E6E6;
+            list-style: none;
+        }
+        &__item:nth-child(1){
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 20px;
+            color: white;
+        }
+    }
+    &__contact{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 20px;
+        color: white;
+        margin-top: 120px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

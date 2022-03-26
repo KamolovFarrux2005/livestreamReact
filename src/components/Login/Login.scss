@@ -1,0 +1,57 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(90deg, #F2CA2D 0%, #8C761D 37.37%, #000000 82.94%); 
+    &__form{
+        width: 500px;
+        margin-right: auto;
+        margin-top: 120px;
+        margin-left: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        color: #ffffff;
+        margin-top: 200px;
+        margin-left: 250px;
+        
+    }
+    
+    &__email, &__password{
+        width: 450px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid white;
+        outline: none;
+        border-radius: 50px;
+        margin: 10px 0;
+        padding: 10px 30px;
+        &::placeholder{
+            color: rgba(0, 0, 0, 0.4);
+            font-family: 'Open Sans';
+            font-weight: 600 semi-bold;
+            font-size: 18px;
+        }
+    }
+    &__submit{
+        padding: 12px 13.5px;
+        width: 144px;
+        height: 56px;
+        background: #FED530;
+        border-radius: 40px;
+        border: 1px solid #FED530;
+        color: #ffffff;
+    }
+    &__error{
+        color: rgb(199, 9, 9);
+    }
+}
